@@ -14,7 +14,7 @@ The server is intentionally sequential and blocking: it accepts one client at a 
 
 ## Architecture
 
-`	ext
+``` text
 +---------------------+
 | Client (terminal)   |
 | - Rich UI           |
@@ -40,7 +40,7 @@ The server is intentionally sequential and blocking: it accepts one client at a 
 | - controllers       |
 | - SQLAlchemy        |
 +---------------------+
-`
+```
 
 ## Key constraints
 
@@ -53,7 +53,7 @@ The server is intentionally sequential and blocking: it accepts one client at a 
 
 ## Project structure
 
-`	ext
+``` text
 .
 ├── client/
 │   ├── api_client.py
@@ -90,7 +90,7 @@ The server is intentionally sequential and blocking: it accepts one client at a 
 ├── requirements-dev.txt
 ├── .env.example
 └── README.md
-`
+```
 
 ## Running the server
 
